@@ -5,6 +5,11 @@ import JustifyContentScreen from './src/screens/JustifyContentScreen';
 import AlignItemsScreen from './src/screens/AlignItemsScreen';
 import AlignSelfScreen from './src/screens/AlignSelfScreen';
 import AlignContentScreen from './src/screens/AlignContentScreen';
+import FlexWrapScreen from './src/screens/FlexWrapScreen';
+
+export default function App() {
+  return <FlexWrapScreen />;
+}
 
 export default function App() {
   return <FlexScreen />;
