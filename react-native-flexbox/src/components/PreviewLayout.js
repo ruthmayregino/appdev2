@@ -36,10 +36,12 @@ const PreviewLayout = ({
 
 const styles = StyleSheet.create({
   container: {
-    flex: 1,
-    marginTop: 8,
-    backgroundColor: 'aliceblue',
-  },
+  flex: 1,
+  flexWrap: 'wrap',
+  marginTop: 8,
+  backgroundColor: 'aliceblue',
+  maxHeight: 400,
+},
   row: {
     flexDirection: 'row',
     flexWrap: 'wrap',

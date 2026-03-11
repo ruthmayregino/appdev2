@@ -4,6 +4,7 @@ import LayoutDirectionScreen from './src/screens/LayoutDirectionScreen';
 import JustifyContentScreen from './src/screens/JustifyContentScreen';
 import AlignItemsScreen from './src/screens/AlignItemsScreen';
 import AlignSelfScreen from './src/screens/AlignSelfScreen';
+import AlignContentScreen from './src/screens/AlignContentScreen';
 
 export default function App() {
   return <FlexScreen />;
@@ -27,4 +28,8 @@ export default function App() {
 
 export default function App() {
   return <AlignSelfScreen />;
+}
+
+export default function App() {
+  return <AlignContentScreen />;
 }
