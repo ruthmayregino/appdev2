@@ -2,6 +2,7 @@ import FlexScreen from './src/screens/FlexScreen';
 import FlexDirectionScreen from './src/screens/FlexDirectionScreen';
 import LayoutDirectionScreen from './src/screens/LayoutDirectionScreen';
 import JustifyContentScreen from './src/screens/JustifyContentScreen';
+import AlignItemsScreen from './src/screens/AlignItemsScreen';
 
 export default function App() {
   return <FlexScreen />;
@@ -17,4 +18,8 @@ export default function App() {
 
 export default function App() {
   return <JustifyContentScreen />;
+}
+
+export default function App() {
+  return <AlignItemsScreen />;
 }
